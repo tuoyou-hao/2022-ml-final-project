@@ -5,7 +5,6 @@ import tools
 from tqdm import tqdm
 import pickle
 
-# 数据集导入
 data = np.load("train_data.npy")
 label = np.load("train_label.npy")
 
@@ -42,8 +41,6 @@ for i in range(epoch):
     for j in tqdm_bar:
         index_s = j*batch_size
         index_e = index_s + batch_size
-        #train_data_batch = train_data[index_s:index_e]
-        #train_label_batch = train_label[index_s:index_e]
         train_data_batch = train_data[index_s:index_e]
         train_label_batch = train_label[index_s:index_e]
             
