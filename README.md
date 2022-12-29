@@ -2,8 +2,8 @@
 本项代码为2022机器学习期末大作业代码
 详情：[kaggle](https://www.kaggle.com/competitions/jnuml2022/overview)
 
-由于数据集较大，需要自行下载数据集
-所需数据集为：[数据集](https://www.kaggle.com/competitions/jnuml2022/data)
+训练数据集在压缩包中
+数据集与该链接中的一致：[数据集](https://www.kaggle.com/competitions/jnuml2022/data)
 
 ## 环境准备
 python3，需要下载numpy、pickle、tqdm库
